@@ -3,7 +3,7 @@ import "./About.scss";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { images } from "../../constants";
-
+// import { urlFor, client } from "../../client";
 const abouts = [
   {
     title: "Frontend Developer",
@@ -32,13 +32,18 @@ const abouts = [
 ];
 
 const About = () => {
+  ///fetching daa from sanity using client
+  // const [abouts, setAbouts] = useState([]);
+  // useEffect(() => {
+  //   const query = '*[_type == "Abouts"]';
+
+  //   client.fetch(query).then((data) => setAbouts(data));
+  // }, []);
   return (
     <>
       <h2 className="head-text">
-        Empowering Businesses through
-        <span>Technology</span>
+        Bridging the Gap between <span>Design</span> and <span>Dev</span>
       </h2>
-
       <div className="app__profiles">
         {abouts.map((about, index) => (
           <motion.div

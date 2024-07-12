@@ -6,7 +6,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "dev": "sanity dev",
-    "start": "sanity start",
+    "start": "sanity start run",
     "build": "sanity build",
     "deploy": "sanity deploy",
     "deploy-graphql": "sanity graphql deploy"
@@ -15,6 +15,8 @@
     "sanity"
   ],
   "dependencies": {
+    "@sanity/client": "^6.21.0",
+    "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.49.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
