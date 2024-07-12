@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { images } from "../../constants";
 // import { urlFor, client } from "../../client";
+import { AppWrap } from "../../wrapper";
 const abouts = [
   {
     title: "Frontend Developer",
@@ -67,4 +68,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AppWrap(About, "about");
