@@ -8,7 +8,7 @@ const abouts = [
   {
     title: "Frontend Developer",
     description:
-      "Crafting dynamic user interfaces with React and building responsive designs using Tailwind CSS. Ensuring cross-browser compatibility and performance, implementing interactive features and animations, and optimizing frontend performance and load times.",
+      "Crafting dynamic user interfaces with React and building responsive designs using Tailwind CSS. Ensuring cross-browser compatibility and performance, implementing interactive features and animations with Framer Motion, and optimizing frontend performance and load times. Proficient in using libraries like Material UI, Three.js, and other tools to enhance user experience.",
     imgUrl: images.about01,
   },
   {
