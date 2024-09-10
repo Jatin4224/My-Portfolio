@@ -1,5 +1,6 @@
 import React from "react";
-import { NavigationDots, SocialMedia } from "../components";
+import { NavigationDots, SocialMedia } from "../components"; // Corrected import paths
+
 const AppWrap = (Component, idName, classNames) =>
   function HOC() {
     return (
@@ -16,5 +17,4 @@ const AppWrap = (Component, idName, classNames) =>
       </div>
     );
   };
-
 export default AppWrap;
