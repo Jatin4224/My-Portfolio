@@ -179,6 +179,8 @@
     border-radius: 38%;
     object-fit: contain;
     z-index: 1;
+    box-shadow: 0px 4px 10px rgba(50, 50, 50, 0.7),
+      /* Dark grey shadow */ 0px 0px 30px rgba(255, 255, 255, 0.8); /* Bright white shadow */
   }
 
   .overlay_circle {
