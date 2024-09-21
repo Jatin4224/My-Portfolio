@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-
-import { urlFor } from "../../client"; // You can remove this if you are not fetching images from an external source.
 import "./Skills.scss";
 
 const Skills = () => {
